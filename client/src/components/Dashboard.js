@@ -15,7 +15,7 @@ function Dashboard() {
       <h3>
         {storeObj.firstName} {storeObj.lastName}
       </h3>
-      <img src={`http://localhost:4567/${storeObj.profilePic}`}></img>
+      <img src={`/${storeObj.profilePic}`}></img>
     </div>
   );
 }
